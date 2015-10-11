@@ -55,12 +55,14 @@ div.content{
 img.ft{
 	width:5%;
 	opacity:1.0;filter:alpha(opacity=100);
+	width:30px;
 }
 
 img:hover.ft{
 	width:5%;
 	opacity:0.4;
 	filter:alpha(opacity=40); 
+	width:30px;
 }
 
 
@@ -107,7 +109,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 /* Home */
 
 img.home{
-	width:350px;
+	width:360px;
+	height:320px;
 }
 
 
@@ -300,4 +303,10 @@ img.Team{
 	border-radius:50%;
 	width:50%;
 	height:50%;
+}
+
+/* CCK */
+frame.vtck{
+	width:150%;
+	height:150%;
 }
