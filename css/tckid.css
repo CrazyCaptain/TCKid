@@ -119,14 +119,15 @@ img.home{
 
 /* What's a TCK */
 
-h3.TCKh3{
-	padding:10px 0px 10px 10px;
+.panel-heading1{
 	font-size:18px;
 	background-color:#3cac00;
 	color:#ffffff;
-	border-radius: 0;
+	padding:10px 15px;
+	border-bottom:1px solid transparent;
 }
 
+.panel-heading1>.dropdown .dropdown-toggle{color:#ffffff;}
  
 /* News */
  h3.Maroon{
@@ -264,9 +265,7 @@ img.Nimg1{
 }
 
 
-/*
- * Blog posts
- */
+/* Blog posts */
 
 .blog-post {
   margin-bottom: 50px;
@@ -282,7 +281,6 @@ img.Nimg1{
 
 
 /* Book */
-
 img.Book{
 	width:50%;
 	padding:5px;
@@ -301,6 +299,20 @@ img.Team{
 	float:left;
 }
 
+.panel-headingW{
+	font-size:18px;
+	color:#ffffff;
+	padding:10px 15px;
+	border-bottom:1px solid transparent;
+}
+
+.panel-headingW>.dropdown .dropdown-toggle{color:inherit}
+
+.panel-title1{margin-top:0;margin-bottom:0;font-size:16px;color:#ffffff}
+.panel-title1>.small,.panel-title>.small>a,.panel-title>a,.panel-title>small,.panel-title>small>a{color:#ffffff}
+ 
+ 
+
 /* Contact */
 .circle{
 	border-radius:50%;
@@ -313,4 +325,3 @@ frame.vtck{
 	width:150%;
 	height:150%;
 }
-

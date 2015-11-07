@@ -204,7 +204,9 @@ table{background-color:transparent}caption{padding-top:8px;padding-bottom:8px;co
 }
  
  @media (min-width:768px){
-	.navbar{border-radius:4px}}@media (min-width:768px){
+	.navbar{border-radius:4px}}
+	
+@media (min-width:768px){
 	.navbar-header{float:left}
 }
 
