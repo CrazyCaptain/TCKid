@@ -205,6 +205,14 @@ img.N14{
 }
 
 .Videos{
-	width:100%;
-	height:350px;
+	width:70%;
+	height:300px;
 }
+
+/* January */
+.Vid_News{
+	width:100%;
+	height:315px;
+}
+
+
