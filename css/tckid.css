@@ -11,9 +11,9 @@ Blue	  -
 Yellow		
 */
 
-
-/* back to top */
-
+body{
+	font:Cooper Hewitt;
+}
 
 /* CSS */
 h4{
@@ -39,19 +39,6 @@ div.content{
 	margin-bottom:5px;
 	
 }
-
-/*
-.logo {
-	height:50px;
-	width: 308px;
-	background:url('../img/logo3.png') no-repeat;
-	float: left;
-	margin-right:20px;
-	margin-left:5px;
-	
-}
-
-*/
 
 /* Footer */
 img.ft{
@@ -90,7 +77,6 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -129,6 +115,9 @@ img.home{
 
 .panel-heading1>.dropdown .dropdown-toggle{color:#ffffff;}
  
+.panel-title1{margin-top:0;margin-bottom:0;font-size:16px;color:#ffffff}
+.panel-title1>.small,.panel-title>.small>a,.panel-title>a,.panel-title>small,.panel-title>small>a{color:#ffffff}
+ 
 /* News */
  h3.Maroon{
 	color:#900000;
@@ -147,10 +136,6 @@ img.Nimg1{
 	padding:5px;
 	overflow:hidden;
 }
-
-/* picture_gallery_hover */
-
-
 
 /*
  * Override Bootstrap's default container.
@@ -206,35 +191,6 @@ img.Nimg1{
 }
 
 
-/*
- * Blog name and description
- */
-
-.blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: normal;
-}
-.blog-description {
-  font-size: 20px;
-  color: #999;
-}
-
-
-/*
- * Main column and sidebar layout
- */
-
-.blog-main {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 15px;
@@ -270,10 +226,7 @@ img.Nimg1{
 .blog-post {
   margin-bottom: 50px;
 }
-.blog-post-title {
-  margin-bottom: 5px;
-  font-size: 40px;
-}
+
 .blog-post-meta {
   margin-bottom: 20px;
   color: #999;
@@ -298,19 +251,6 @@ img.Team{
 	margin-bottom:10px;
 	float:left;
 }
-
-.panel-headingW{
-	font-size:18px;
-	color:#ffffff;
-	padding:10px 15px;
-	border-bottom:1px solid transparent;
-}
-
-.panel-headingW>.dropdown .dropdown-toggle{color:inherit}
-
-.panel-title1{margin-top:0;margin-bottom:0;font-size:16px;color:#ffffff}
-.panel-title1>.small,.panel-title>.small>a,.panel-title>a,.panel-title>small,.panel-title>small>a{color:#ffffff}
- 
  
 
 /* Contact */
