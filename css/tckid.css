@@ -12,7 +12,13 @@ Yellow
 */
 
 body{
-	font:Cooper Hewitt;
+	font-family: Cooper;
+}
+
+@font-face{
+	font-family: Cooper;
+	src: url('../fonts/CooperHewitt-Medium.otf');
+	
 }
 
 /* CSS */
@@ -252,6 +258,10 @@ img.Team{
 	float:left;
 }
  
+/* Resources */
+h3.Maroon{
+	color: #900000;
+}
 
 /* Contact */
 .circle{
