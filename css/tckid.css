@@ -13,6 +13,11 @@ h4{
 	color:#63af40;
 }
 
+h5.green{
+	color:#63af40;
+	
+}
+
 div.content{
 	padding-right:15px;
 	padding-left:15px;
@@ -93,6 +98,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 img.home{
 	width:360px;
 	height:320px;
+}
+
+.shadow{
+	text-shadow: 2px 2px 4px #000000;
 }
 
 

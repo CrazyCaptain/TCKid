@@ -7,7 +7,6 @@
 
 	<!-- Responsive  -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 	
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +18,6 @@
 </head>
 
 <body>
-
 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -37,7 +35,14 @@
         </div>
 		<div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="What's a TCK.html">What's a TCK</a></li>
+			  
+				<li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What's a TCK <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="What's a CCK.html">What's a CCK</a></li>
+					  </ul>
+                </li>
+				
 				<li><a href="What we do.html">What we do</a></li>
 				
 				<li class="dropdown">
@@ -76,7 +81,7 @@
                 </li>
 				
 				<li><a href="Stories.html">Stories</a></li>	
-				<li><a href="http://my.tckid.com/main/authorization/signUp?/" target='_blank'>Join Us</a></li>
+				<li class="active"><a href="Join Us.html">Join Us</a></li>
 				<li><a href="Get Involved.html">Get Involved</a></li>
 				<li><a href="Contact Us.html">Contact Us</a></li>
 				<li><a href="Support.html">Support</a></li>
@@ -111,7 +116,7 @@
 			<h3 class="Maroon">Who We Are</h3>			
 			
 			<p>TCKid is a active global community of Third Culture Kid (TCK) adults and youth across geographical boundaries. Read about our 
-			<a href="What we do.html">mission and vision</a>, and our <a href="What we do.html">official partners and staff</a>.</p>
+			<a href="VM.html">mission and vision</a>, and our <a href="Partners.html">official partners and staff</a>.</p>
 			
 			
 			<ul>
@@ -127,6 +132,7 @@
 			
 			<!---->
 			
+				<!--
 		 <form class="form-signin">
 			<h2 class="form-signin-heading">Sign up, It's Free and Anyone Can Join!</h2>
 			<p>We have over 21,375 members. Join our family to get our newsletter. Your privacy is respected.<p>
@@ -138,17 +144,12 @@
 			<br>
 			<label for="inputFirstName" class="sr-only">First name</label>
 			<input type="name" id="inputFirstName" class="form-control" placeholder="First name" required>
-				<!--
-				<div class="checkbox">
-				  <label>
-					<input type="checkbox" value="remember-me"> Remember me
-				  </label>
-				</div>
-				-->
+			
+				
 				<br>
 			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 		</form>
-			
+			-->
 			<!-- END OF BLOG -->
 		  
 			</div>
@@ -161,14 +162,22 @@
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
           <div class="sidebar-module-inset" >
             <h4>About TCKid</h4>
-            <p>TCKid is an active global community of Third Culture Kid (TCK) adults and youth across geographical boundaries.</p>		
-			
-			<center><p><a class="btn btn-default" href="What's a TCK.html" role="button" >More about TCK &raquo;</a></p></center>
+            <p>TCKid is an active global community of Third Culture Kid (TCK) adults and youth across geographical boundaries.</p>
+						
+			<center><p><a class="btn btn-default" href="What's a TCK.html" role="button" >More About TCK &raquo;</a></p></center>
           </div>
 		  
 		  <br>
 		  
-
+		  <div class="sidebar-module-inset">
+            <h4>Support Us!</h4>
+            <p>Please be sure you are viewing this donation button on tckid.com, ie 
+			<a href="Support.html">http://tckid.com/support</a>
+			
+			</p>
+			
+			<center><p><a class="btn btn-default" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KC6E7XQWPMRFQ" target='_blank'>Donate &raquo;</a></p></center>
+          </div>
 		  
           
         </div>
