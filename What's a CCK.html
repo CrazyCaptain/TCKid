@@ -4,38 +4,22 @@
     <title>TCKid</title>
 	<!-- Logo  -->
 	<link rel="shortcut icon" href="img/tckid-logo1.png" type="image/png">
-
+	
 	<!-- Responsive  -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 	
     <!-- Bootstrap core CSS -->
-	<link href="css/tckid.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/tckid.css" rel="stylesheet">
+	<link href="css/News.css" rel="stylesheet">
+	
+</head>
+<body>
 
-	<!-- Warning -->
-    <script src="js/ie-emulation-modes-warning.js"></script>
 
-	<script type="text/javascript" src="js/jquery.mi.js"></script> 
-	<script>
-		$(document).ready(function() {
-		  $("#accordian h3").click(function() {
-			//Slide up all the link lists
-			$("#accordian ul ul").slideUp();
-			//Slide down the link list below the h3 clicked - only if it's closed
-			if(!$(this).next().is(":visible")) {
-			  $(this).next().slideDown();
-			  
-			}
-		  })
-		})
-	</script>
-  </head>
-  
-  
- <body>
- 
- <!-- Fixed navbar -->
+
+    <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-full">
         <div class="navbar-header">
@@ -46,20 +30,30 @@
             <span class="icon-bar"></span>
           </button>
 		  
-          <a href="Index.html"><img src="img/tckid-logo.png" class="logo"></a>
+          <a href="index.html"><img src="img/tckid-logo.png" class="logo"></a>
 		  
         </div>
 		<div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="What's a TCK.html">What's a TCK</a></li>
-                <li><a href="News.html">News</a></li>
+                <li><a href="What's a TCK.html">What's a TCK</a></li>
+				<li><a href="What we do.html">What we do</a></li>
+				
+				<li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Updates<span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="Announcements.html">Announcements</a></li>
+						<li><a href="Articles.html">Articles</a></li>
+						<li><a href="Blog.html">Blog</a></li>
+					  </ul>
+                </li>
 				
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
 					  <ul class="dropdown-menu">
-						<li><a href="What we do.html">What we do</a></li>
+						<li><a href="VM.html">Vision & Mission</a></li>
 						<li><a href="Team.html">Team</a></li>
 						<li><a href="History.html">History</a></li>
+						<li><a href="Partners.html">Partners</a></li>
 					  </ul>
                 </li>
 				
@@ -68,7 +62,6 @@
 					  <ul class="dropdown-menu">
 						<li><a href="Book.html">Book</a></li>
 						<li><a href="Links.html">Links</a></li>
-						<li><a href="Partners.html">Partners</a></li>
 					  </ul>
                 </li>
 				
@@ -80,8 +73,9 @@
 					  </ul>
                 </li>
 				
-				<li><a href="Stories.html">Stories</a></li>				
-				<li><a href="http://my.tckid.com/main/authorization/signUp?/" target='_blank'>Join Us</a></li><li><a href="Get Involved.html">Get Involved</a></li>
+				<li class="active"><a href="Stories.html">Stories</a></li>	
+				<li><a href="http://my.tckid.com/main/authorization/signUp?/" target='_blank'>Join Us</a></li>
+				<li><a href="Get Involved.html">Get Involved</a></li>
 				<li><a href="Contact Us.html">Contact Us</a></li>
 				<li><a href="Support.html">Support</a></li>
 				
@@ -89,26 +83,24 @@
             </div>
 			
 			
-			
 		</div>
     </nav>
 		<!--/.nav-collapse -->
 		
+	
 
-		
-
-    <!-- Content -->
+<!-- Content -->
 	
 	<div class="content">
-	<div class="container">
-		
- <!-- Begin page content -->
-      <div class="page-header">
-			<h2>What's a CCK?</h2>
+    <div class="container">
+	
+		<div class="page-header">
+			<h2>What's a CCK</font></h2>
 		</div>
-		
-		
-       <div class="blog-post">
+			
+      <div class="row">
+        <div class="col-sm-8 ">
+           <div class="blog-post">
 		  
 		<h3 class="Maroon">Don't fit the "TCK" description? Then you could be a CCK...</h3>
 	  
@@ -180,12 +172,47 @@
 		<!-- Ending -->
 
 		</div>
-</div>
+	</div>
+			<!-- END OF BLOG -->
+		  
+		
+		<!-- /.blog-main -->
 
-</div>	<!-- End of Content -->
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module-inset" >
+			<h4 class="Maroon">Related Articles:</h4>
+		  
+            <h4>Third Culture Kids</h4>
+            <a href="http://www.worldweave.com/procon.htm" target="_blank">Pros and Cons of Third Culture Kids</a>
+			
+			<br>
+			<br>
+			<h4>Third Culture Kids</h4>
+            <a href="http://www.amazon.com/exec/obidos/ASIN/1857882954/84-20/">Third Culture Kids: Growing up Among Worlds</a>
+			
+			<br>
+			<br>
+			<h4>Third Culture Kids Stories</h4> 
+			<a href="http://future.state.gov/where/stories/transition/">Stories by Children of Diplomats</a>
+			
+			<br>
+			<br>
+			<h4>Third Culture Kids and Cross Cultural Kids in the News</h4> 
+			<a href="http://www.time.com/time/europe/tga/article/0,13005,901031027-524622,00.html">TIME:Rooted To Nowhere</a><br>
+			<a href="http://www.telegraph.co.uk/global/main.jhtml?view=DETAILS&amp;grid=&amp;xml=/global/2006/02/23/expatliv.xml">Are Cross Cultural Kids prototype citizens of the future?</a><br>
+			<a href="http://www.csmonitor.com/2003/1223/p14s02-legn.html">When No Place Feels Like Home<br>
+			
+			</div> 
+        </div>
+
+    </div><!-- /.row -->
+
+	</div>
+ </div><!-- End of Content -->
+ 
 
 
-	<!-- FOOTER -->
+    <!-- FOOTER -->
 	<br>
 	<hr>
 	
@@ -195,15 +222,15 @@
 		<a href="https://www.youtube.com/user/tckidtv" target='_blank' ><img src="img/Social Media/GYoutube.png" class="ft" width="40px"></a>
 		<a href="https://www.facebook.com/TCKid" target='_blank' ><img src="img/Social Media/GFacebook.png" class="ft" width="40px"></a>
 		<a href="https://twitter.com/tckid" target='_blank' ><img src="img/Social Media/GTwitter.png" class="ft" width="40px"></a>
-		
+			
 		<br>
 		<br>
 	
 	  <p>&copy; 2015 my.Tckid.com. | All rights reserved</a></p>
 	  <center>
       </footer>
-	
-	<!-- /.container -->
+	  
+	<!-- End of Footer -->
 
     <!-- Bootstrap  -->
     <script src="js/jquery.min.js"></script>
