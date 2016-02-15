@@ -8,14 +8,23 @@ body{
 	
 }
 
-/* CSS */
-h4{
+
+/* Colors */
+.Maroon{ 
+	color:#622900;
+}
+
+.blue{
+	color:#489bc3;
+}
+
+.green{
 	color:#63af40;
 }
 
-h5.green{
+/* CSS */
+h2, h4, h3, h5{
 	color:#63af40;
-	
 }
 
 div.content{
@@ -47,7 +56,7 @@ img.ft{
 
 img:hover.ft{
 	width:5%;
-	opacity:0.4;
+	opacity:0.7;
 	filter:alpha(opacity=40); 
 	width:30px;
 	cursor:hand;
@@ -65,6 +74,7 @@ img:hover.ft{
     font-size: 24px; 
 	background-color: #63af40;
 	color: #FFFFFF;
+	text-decoration: none;
 	}
 
 
@@ -91,6 +101,7 @@ button, .button {
 button:hover, button:focus, .button:hover, .button:focus {
     background-color: #1c5602;
 	color: #FFFFFF;
+	text-decoration: none;
 }
 
 /* Home */
@@ -109,7 +120,7 @@ img.home{
 
 .panel-heading1{
 	font-size:18px;
-	background-color:#3cac00;
+	background-color:#63af40;
 	color:#ffffff;
 	padding:10px 15px;
 	border-bottom:1px solid transparent;
@@ -123,9 +134,6 @@ img.home{
  
 /* News */
 
-h2.Maroon, h3.Maroon, h4.Maroon, p.Maroon{ /* Brown */
-	color:#622900;
-}
 
 img.Nimg{
 	width:70%;
@@ -152,15 +160,6 @@ img.Nimg1{
   
 }
 
-/*
- * Masthead for nav
- */
-
-.blog-masthead {
-  background-color: #428bca;
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-}
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
