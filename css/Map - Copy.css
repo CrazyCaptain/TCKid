@@ -22,11 +22,7 @@ hr.line {
 	font-size:30px;
 }
 
-
-.circle{
-	
-}
-.button {
+.button1 {
   font-size: 1em;
   padding: 7px;
   background: #489bc3;
@@ -44,7 +40,7 @@ hr.line {
 	margin-left:auto;
 }
 
-.button:hover {
+.button1:hover {
   background: #008000;
 }
 

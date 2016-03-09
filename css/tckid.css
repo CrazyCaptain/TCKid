@@ -34,6 +34,30 @@ div.content{
 	padding-top:40px;
 }
 
+.globe{
+  background: url('../img/globe.png') no-repeat;
+  cursor: url('../img/airport-36.png'), auto;
+  background-size:contain;
+ }
+
+ .cglobe{
+	width: 15px;
+    height: 15px;
+	border: 2px solid #ffffff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+	cursor: url('../img/airport-36.png'), auto;
+	background: #489bc3;
+	padding: 7px;
+	white-space: pre;
+}
+
+.cglobe:hover{
+  background: #008000;
+}
+
+
 .logo {
 	height:48px;
 	width: 121px;

@@ -170,14 +170,36 @@
 	
 	
     <div class="container">
-	
-	
-
-	
       <!-- START THE FEATURETTES -->
-	  
-	  
-      
+	  <div class="row featurette">
+		
+	   		<div class="globe col-md-5" style="width:360px !important;height:320px !important;">
+				<div style="margin-left:247px;top:142px;position:absolute;">
+					<div class="cglobe" data-toggle="tooltip" data-placement="right" title="Make friends"></div>
+				</div>
+				
+				<div style="margin-left:179px;top:154px;position:absolute;">
+					<div class="cglobe" data-toggle="tooltip" data-placement="right" title="Connect with other TCK's in your region"></div>
+				</div>
+
+				<div style="margin-left:77px;top:110px;position:absolute;">
+					<div class="cglobe" data-toggle="tooltip" data-placement="right" title="Start a thought-provoking discussion among TCKs"></div>
+				</div>
+			
+				<div style="margin-left:144px;top:245px;position:absolute;">
+					<div class="cglobe" data-toggle="tooltip" data-placement="right" title="Join global chats"></div>
+				</div>				
+			</div>
+			
+			<div class="col-md-7">
+				<br><br>
+				<h2>Join Us</h2>
+				<p class="lead"><a href="http://my.tckid.com/main/authorization/signUp?/" target='_blank'>Join the TCKid Community</a> - a forum where you can connect and communicate with TCKid's around the world. Joining is free, and we would love to have you with us!</p>
+				<a class="small button" href="Join Us.html">More &raquo;</a></p>      
+			</div>
+	   </div>
+	   
+	  <hr class="featurette-divider">
 	  
 		  <div class="row featurette">
 			<div class="col-md-7">
@@ -192,7 +214,8 @@
 				<img src="img/Pic.JPG" class="home">
 			</div>
 		  </div>
-
+		   
+		  		  
       <hr class="featurette-divider">
 	  
       <div class="row featurette">
@@ -210,12 +233,12 @@
         <div class="col-md-5 col-md-pull-7">
 			<div style="background-image: url('img/6TV1.png'); background-repeat:no-repeat;width:500px;height:400px;">
 				<iframe width="370" height="280" src="https://www.youtube.com/embed/ynX8Ujo1xhA?autoplay=1;rel=0&amp;showinfo=0" frameborder="0" style="position:absolute;z-index:-1;padding-top:25px;padding-left:30px;" allowfullscreen="allowfullscreen">
-		 </iframe>
-      
-	  </div>
+				</iframe>
+			</div>
 		</div>
        </div>
-
+	   
+	</div>
      
 	 <!-- /END THE FEATURETTES -->
 
@@ -246,5 +269,11 @@
 	<script src="js/holder.min.js"></script>
 	<script src="js/ie10-viewport-bug-workaround.js"></script>
 	
-  </body>
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip();   
+	});
+	</script>
+
+	</body>
 </html>
