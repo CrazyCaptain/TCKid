@@ -59,15 +59,12 @@ div.content{
 
 
 .logo {
-	height:48px;
-	width: 121px;
-	background:url('../img/logo3.png') no-repeat;
+	height:28px;
+	width: 200px;
 	float: left;
-	margin-top:5px;
-	margin-right:50px;
+	margin-top:15px;
+	margin-right:20px;
 	margin-left:20px;
-	margin-bottom:5px;
-	
 }
 
 /* Footer */
