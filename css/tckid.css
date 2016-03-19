@@ -58,15 +58,15 @@ div.content{
 }
 
 
-/*.logo {
-	 height:28px;
+.logo {
+	height:28px;
 	width: 195px;
 	float: left;
-	 margin-top:15px;
+	margin-top:15px;
 	margin-right:20px;
-	margin-left:20px; 
+	margin-left:20px;
 	position:absolute;
-}*/
+}
 
 /* Footer */
 img.ft{
