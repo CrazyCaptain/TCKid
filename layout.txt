@@ -1,0 +1,33 @@
+<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+<div class="sidebar-module-inset" >
+<h4>About TCKid</h4>
+<p>TCKid is an active global community of Third Culture Kid (TCK) adults and youth across geographical boundaries.</p>
+<p>			<center>
+<p><a class="btn btn-success" href="http://localhost:8080/wordpress/whats-a-tck/" role="button" >More About TCK &raquo;</a></p>
+<p></center>
+          </div>
+<p></p>
+<div class="sidebar-module-inset">
+<h4>Support Us!</h4>
+<p>Please be sure you are viewing this donation button on tckidNow.com
+<p>			<center>
+<p><a class="btn btn-success" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=KC6E7XQWPMRFQ" target='_blank'>Donate &raquo;</a></p>
+<p></center>
+          </div>
+
+<div class="sidebar-module">
+<h4>Recent Posts</h4>
+<ol class="list-unstyled">
+ 	<li><a href="http://localhost:8080/wordpress/updates/articles/january-2015/">January 2015</a></li>
+ 	<li><a href="http://localhost:8080/wordpress/updates/articles/december-2014/">December 2014</a></li>
+ 	<li><a href="http://localhost:8080/wordpress/updates/articles/november-2014/">November 2014</a></li>
+ 	<li><a href="http://localhost:8080/wordpress/updates/articles/september-2014/">September 2014</a></li>
+ 	<li><a href="http://localhost:8080/wordpress/updates/articles/april-2014/">April 2014</a></li>
+ 	<li><a class="actives" href="http://localhost:8080/wordpress/updates/articles/december-2013/">December 2013</a></li>
+ 	<li><a href="http://localhost:8080/wordpress/updates/articles/november-2013/">November 2013</a></li>
+ 	<li><a href="http://localhost:8080/wordpress/updates/articles/october-2013/">October 2013</a></li>
+ 	<li><a href="http://localhost:8080/wordpress/updates/articles/march-2013/">March 2013</a></li>
+</ol>
+</div>
+</p></div>
+</p></div><!-- /.row -->
