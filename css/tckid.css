@@ -127,18 +127,20 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 /* Home */
 
-img.home{
-	width:360px;
-	height:320px;
+img.home_down {
+    width: 100%;
+    padding: 5px;
+    float: left;
 }
 
 .shadow{
 	text-shadow: 2px 2px 4px #000000;
 }
 
+@media (max-width: 1920px) {
 iframe.home_tv {
 	width:80%;
-	height:210px;
+	height:250px;
 	padding-top:0px;
 	padding-right:30px;
 	padding-left:30px;
@@ -157,9 +159,9 @@ img.bg_tv{
 	padding-left:30px;
 	padding-bottom:0px;
 }
+}
 
-
-@media (max-width: 1920px) {
+@media (max-width: 1280px) {
 iframe.home_tv {
 	height:210px;
 }
@@ -177,6 +179,18 @@ iframe.home_tv {
 }
 }
 
+@media (max-width: 640px) {
+iframe.home_tv {
+	height:340px;
+}
+}
+
+@media (max-width: 480px) {
+iframe.home_tv {
+	height:250px;
+}
+}
+
 @media (max-width: 360px) {
 iframe.home_tv {
 	height:180px;
@@ -189,6 +203,7 @@ iframe.home_tv {
 	height:160px;
 }
 }
+
 
 /* What's a TCK */
 
