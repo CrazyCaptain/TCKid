@@ -6,17 +6,34 @@
 	<link rel="shortcut icon" href="img/tckid-logo1.png" type="image/png">
 
 	<!-- Responsive  -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-    <!-- Bootstrap core CSS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">    
+  
+  <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
 	<link href="css/tckid.css" rel="stylesheet">
 	
-    <script src="js/ie-emulation-modes-warning.js"></script>
-	
-  </head>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  
+  .shadow{
+	text-shadow: 2px 2px 4px #000000;
+	color: #FFFFFF;
+	}
 
+	p.shadow{
+		color: #FFFFFF;
+		margin-bottom: 20px;
+		font-size: 15px;
+		line-height: 1.4;
+	}
+
+  </style>
+</head>
   <body>
  
     <!-- Fixed navbar -->
@@ -35,9 +52,8 @@
         </div>
 		<div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                
 				<li class="dropdown">
-                  <a href="What's a TCK.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Title??<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What's a TCK/ CCK <span class="caret"></span></a>
 					  <ul class="dropdown-menu">
 						<li><a href="What's a TCK.html">What's a TCK</a></li>
 						<li><a href="What's a CCK.html">What's a CCK</a></li>
@@ -45,8 +61,9 @@
                 </li>
 				
 				<li class="dropdown">
-                  <a href="What we do.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What we do<span class="caret"></span></a>
+                  <a href="What we do.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What We Do<span class="caret"></span></a>
 					  <ul class="dropdown-menu">
+						<li><a href="What we do.html">What We Do</a></li>
 						<li><a href="Research Bridge.html">TCKid Research Bridge</a></li>
 						<li><a href="TV.html">TCKid TV and Radio: All Things TCK</a></li>
 						<li><a href="Life Transition.html">TCKid Life Transitions</a></li>
@@ -106,76 +123,67 @@
 
 
 	<!-- Carousel -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      
-	  <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
-	  
-      <div class="carousel-inner" role="listbox">
+	<div id="myCarousel" class="carousel slide" style="padding-top:50px;" data-ride="carousel">
+    
+	<!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="img/1.jpg" width="460px" height="345px">
         
-		<div class="item active">
-          <img class="first-slide" src="img/1.jpg">
-          
-		  <div class="container">
-            <div class="carousel-caption">
-              <h1 class="shadow">A Home for Third Culture Kids.</h1>
+		<div class="carousel-caption">
+          <h3 class="shadow">A Home for Third Culture Kids.</h3>
               <p class="shadow">Building Cross Cultural Bridges</p>
 			  <p><a class="small button" href="Join Us.html" role="button">Join Us</a></p>
-            </div>
-			
-          </div>
         </div>
-		
-        <div class="item">
-          <img class="first-slide" src="img/2.png">
-		  <div class="container">
-            <div class="carousel-caption">
-              <h1 class="shadow">A Home for Third Culture Kids.</h1>
+      </div>
+
+      <div class="item">
+        <img src="img/2.png" width="460px" height="345px">
+        <div class="carousel-caption">
+          <h3 class="shadow">A Home for Third Culture Kids.</h3>
               <p class="shadow">Building Cross Cultural Bridges</p>
 			  <p><a class="small button" href="Join Us.html" role="button">Join Us</a></p>
-            </div>
-          </div>
         </div>
-        
-		<div class="item">
-          <img class="first-slide" src="img/3.jpg">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1 class="shadow">A Home for Third Culture Kids.</h1>
+      </div>
+    
+      <div class="item">
+        <img src="img/3.jpg" width="460px" height="345px">
+        <div class="carousel-caption">
+          <h3 class="shadow">A Home for Third Culture Kids.</h3>
               <p class="shadow">Building Cross Cultural Bridges</p>
 			  <p><a class="small button" href="Join Us.html" role="button">Join Us</a></p>
-            </div>
-          </div>
         </div>
-		
-		<div class="item">
-          <img class="first-slide" src="img/4.jpg">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1 class="shadow">A Home for Third Culture Kids.</h1>
+      </div>
+
+      <div class="item">
+        <img src="img/4.jpg" width="460px" height="345px">
+        <div class="carousel-caption">
+          <h3 class="shadow">A Home for Third Culture Kids.</h3>
               <p class="shadow">Building Cross Cultural Bridges</p>
-			  <p><a class="small button" href="Join Us.html" role="button">Join Us</a></p>
-            </div>
-          </div>
+			  <p><a class="small button btn-responsive" href="Join Us.html" role="button">Join Us</a></p>
         </div>
-		
       </div>
 	  
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-	<!-- /.carousel -->
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div> </div>
+  	<!-- /.carousel -->
 	
 	
     <div class="container">
@@ -230,7 +238,7 @@
       <div class="row featurette">
         <div class="col-md-5">
 			<br>
-			<iframe class="home_tv" src="https://www.youtube.com/embed/ynX8Ujo1xhA?autoplay=1;rel=0&amp;showinfo=0" frameborder="0"></iframe>
+			<iframe class="home_tv" src="https://www.youtube.com/embed/ynX8Ujo1xhA?autoplay=0;rel=0&amp;showinfo=0" frameborder="0"></iframe>
 			<img src="img/6TV1.png" class="bg_tv">
 		</div>
 		
@@ -277,14 +285,7 @@
     <!-- Bootstrap  -->
     <script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/holder.min.js"></script>
-	<script src="js/ie10-viewport-bug-workaround.js"></script>
 	
-	<script>
-	$(document).ready(function(){
-		$('[data-toggle="tooltip"]').tooltip();   
-	});
-	</script>
 
 	</body>
 </html>
